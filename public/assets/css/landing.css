@@ -222,7 +222,7 @@
 }
 article {
     padding: 50px 0;
-    float: left;
+    /*float: left;*/
     width: 100%;
     min-height: 750px;
 }

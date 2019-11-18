@@ -10,7 +10,7 @@
                 <span class="hamb-middle"></span>
                 <span class="hamb-bottom"></span>
             </button>
-            <div class="container">
+            <div class="">
                 <router-view/>
             </div>
         </div>

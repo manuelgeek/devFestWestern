@@ -1,572 +1,287 @@
 <template>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <article id="all">
-                <!-- home pages -->
-                <h2 style="display:none">heading</h2>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="index.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
+            <article class="wow fadeInDown" id="welcome">
+            </article>
+            <article class="wow fadeInDown" id="intro">
+                <div class="row">
+                    <div class="col-md-5">
+
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-02.jpg" alt="#" />
+                    <div class="col-md-7">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin_bottom_30_all">
+                            <div class="center">
+                                <img src="/assets/images/manu.png" width="200" class="img-circle" alt="me" />
+                            </div>
                         </div>
-                        <div class="feature_info">
-                            <a href="home_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-04.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_4.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-05.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_5.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- secvice -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-service-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="service.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-sevice-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="service_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-sevice-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="service_page_3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- pages -->
-                <!-- about us pages -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-about-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="about_page_1.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-about-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="about_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- team pages -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-team-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="team_page_1.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-team-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="team_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- blog detail -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-detail.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_detail.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- 404 error -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-404.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="page_404_1.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- blog -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-04.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page4.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-05.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page5.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- case studies -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies_page_3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-04.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies_page_4.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- shop -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-shop.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="shop.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- contact -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-contact-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="contact.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-contact-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="contact_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <div class="row margin_bottom_20_all">
+                                <div class="full">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <h3 class="margin_bottom_0">Magak Emmanuel</h3> <br>
+                                        <p class="large_2 theme_color">Vue | Laravel | Rails | BI and A</p>
+                                        <a href="https://manuel.appslab.co.ke">manuel.appslab.co.ke</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin_bottom_30_all">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p class="large_2" > Apps:Lab KE - CTO <br> droidconKE - Organizer
+                                    </p>
+                                    <br><br>
+                                    <p class="large_2">@emashmagak</p>
+                                    <br><br><br>
+                                    <div class="social_icon_style_2 pull-left">
+                                        <ul>
+                                            <li><a target="_blank" href="https://github.com/manuelgeek"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                            <li><a target="_blank" href="https://twitter.com/emashmagak"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="home">
-                <!-- home pages -->
-                <h2 style="display:none">heading</h2>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="index.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+            <article class="wow fadeInDown" id="agenda">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <div style="margin-left: 100px;" class="padd  vertical-center content-center">
+                            <h2>Agenda</h2>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-04.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_4.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-05.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="home_page_5.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+                    <div class="col-md-6">
+                        <div class="agenda ">
+                            <h3>What is Firebase 1</h3> <br> <br>
+                            <h3>Storage 2</h3> <br><br>
+                            <h3>Realtime DB & Firestore 3</h3><br> <br>
+                            <h3>Authentication 4</h3> <br><br>
+                            <h3>Cloud Messaging 5</h3> <br><br>
+                            <h3>Hosting 6</h3>
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="service">
-                <h2 style="display:none;">heading</h2>
-                <!-- secvice -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-service-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="service.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-sevice-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="service_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-sevice-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="service_page_3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+            <article class="wow fadeInDown" id="firebase">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class="padd text-center vertical-center content-center">
+                            <h2 class="yellow">A comprehensive app
+                                development platform</h2>
+                            <br>
+<!--                            <h2 class="yellow">Firebase helps-->
+<!--                                mobile and web-->
+<!--                                app teams succeed</h2>-->
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="pages">
-                <h2 style="display:none">heading</h2>
-                <!-- pages -->
-                <!-- about us pages -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-about-01.jpg" alt="#" />
+            <article class="wow fadeInDown" id="storage">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class=" text-center">
+                            <h2 >Cloud Storage</h2>
                         </div>
-                        <div class="feature_info">
-                            <a href="about_page_1.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-about-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="about_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- team pages -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-team-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="team_page_1.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-team-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="team_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- blog detail -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-detail.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_detail.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- 404 error -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-404.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="page_404_1.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+                        <div class="text-left">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h3 class="text-center" >Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale.</h3>
+                                    </div>
+                                    <div class="margin-50 margin_bottom_30"></div>
+                                    <div class="list col-md-10 col-md-offset-1 ">
+                                        <h3>Key Capabilities</h3>
+                                        <ul>
+                                            <li>Robust operations</li>
+                                            <li>Strong Security</li>
+                                            <li>High Scalability</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="blog">
-                <h2 style="display:none;">heading</h2>
-                <!-- blog -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-01.jpg" alt="#" />
+            <article class="wow fadeInDown" id="database">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class=" text-center">
+                            <h2>Realtime Database</h2>
                         </div>
-                        <div class="feature_info">
-                            <a href="blog.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-04.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page4.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-blog-05.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="blog_page5.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+                        <div class="text-left">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h3 class="" >Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale.Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale.</h3>
+                                    </div>
+                                    <div class="margin-50 margin_bottom_30"></div>
+                                    <div class="list col-md-10 col-md-offset-1 ">
+                                        <h3>Key Capabilities</h3>
+                                        <ul>
+                                            <li>Realtime</li>
+                                            <li>Offline support for mobile and web</li>
+                                            <li>Accessible from your mobile or web applications</li>
+                                            <li>Scale across multiple databases</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="case_studies">
-                <h2 style="display:none;">heading</h2>
-                <!-- case studies -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-01.jpg" alt="#" />
+            <article class="wow fadeInDown" id="firestore">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class=" text-center">
+                            <h2>Cloud Firestore</h2>
                         </div>
-                        <div class="feature_info">
-                            <a href="case_studies.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-03.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies_page_3.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-cast-04.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="case_studies_page_4.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+                        <div class="text-left">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h3 class="" >Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform.
+                                            Firestore database functions with data models by storing your data in documents. Those documents are stored inside of collections</h3>
+                                    </div>
+                                    <div class="margin-50 margin_bottom_30"></div>
+                                    <div class="list col-md-10 col-md-offset-1 ">
+                                        <h3>Key Capabilities</h3>
+                                        <ul>
+                                            <li>Flexibility</li>
+                                            <li>Offline support</li>
+                                            <li>Realtime updates</li>
+                                            <li>Scale across multiple databases</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article id="shop">
-                <h2 style="display:none;">heading</h2>
-                <!-- shop -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-shop.jpg" alt="#" />
+            <article class="wow fadeInDown" id="auth">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class=" text-center">
+                            <h2>Firebase Authentication</h2>
                         </div>
-                        <div class="feature_info">
-                            <a href="shop.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article id="contact">
-                <h2 style="display:none;">heading</h2>
-                <!-- contact -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-contact-01.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="contact.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s">
-                    <div class="feature_box">
-                        <div class="feature_img_theme_pr">
-                            <img class="img-responsive" src="/assets/images/landing_page/seo-01-contact-02.jpg" alt="#" />
-                        </div>
-                        <div class="feature_info">
-                            <a href="contact_page_2.html" class="visit_web"><i class="fa fa-external-link-square"></i> View Demo</a>
+                        <div class="text-left">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h3 class="" >Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.</h3>
+                                    </div>
+                                    <div class="margin-50 margin_bottom_30"></div>
+                                    <div class="list col-md-10 col-md-offset-1 ">
+                                        <h3>Key Capabilities</h3>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li>Drop-in authentication solution</li>
+                                                <li>Email and password based authentication</li>
+                                                <li>Federated identity provider integration</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li>Phone number authentication</li>
+                                                <li>Custom auth system integration</li>
+                                                <li>Anonymous auth</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
+            <article class="wow fadeInDown" id="messaging">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class=" text-center">
+                            <h2>Firebase Cloud  Messaging</h2>
+                        </div>
+                        <div class="text-left">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h3 class="" >Firebase Cloud Messaging (FCM) is a cross-platform messaging solution that lets you reliably deliver messages at no cost.
+                                            <br>
+                                            Using FCM, you can notify a client app that new email or other data is available to sync. You can send notification messages to drive user re-engagement and retention.</h3>
+                                    </div>
+                                    <div class="margin-50 margin_bottom_30"></div>
+                                    <div class="list col-md-10 col-md-offset-1 ">
+                                        <h3>Key Capabilities</h3>
+                                        <div class="col-md-12">
+                                            <ul>
+                                                <li>Send notification messages or data messages</li>
+                                                <li>Versatile message targeting</li>
+                                                <li>Send messages from client apps</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="wow fadeInDown" id="hosting">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class=" text-center">
+                            <h2>Firebase Hosting</h2>
+                        </div>
+                        <div class="text-left">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <h3 class="" >Firebase Hosting provides fast and secure hosting for your web app, static and dynamic content, and microservices.
+                                            <br>
+                                            Firebase Hosting is production-grade web content hosting for developers. With a single command, you can quickly deploy web apps and serve both static and dynamic content to a global CDN (content delivery network)</h3>
+                                    </div>
+                                    <div class="margin-50 margin_bottom_30"></div>
+                                    <div class="list col-md-10 col-md-offset-1 ">
+                                        <h3>Key Capabilities</h3>
+                                        <div class="col-md-12">
+                                            <ul>
+                                                <li>Serve content over a secure connection</li>
+                                                <li>Host static and dynamic content plus microservices</li>
+                                                <li>Deploy new versions with one command</li>
+                                                <li>Rollback with one click</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="wow fadeInDown" id="q_n_a">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div style="margin-left: 300px;" class="text-center vertical-center content-center">
+                            <h2 style="font-size: 100px; color: #5dbe4b;">Q and A</h2>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="wow fadeInDown" id="end">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div style="margin-left: 300px;" class="text-center vertical-center content-center">
+                            <h2 style="font-size: 80px;">Thank you</h2> <br>
+                        </div>
+                        <div class="text-info text-center" style="margin-top: -70px">
+                            <p style="font-size: 25px; color: #f24129">github.com/manuelgeek/devFestWestern</p>
+                            <p style="font-size: 25px; color: #f24129">github.com/droidconKE/droidcon19Web</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
         </div>
     </div>
 </template>
@@ -581,3 +296,59 @@
         }
     }
 </script>
+
+<style lang="scss" scoped>
+    article {
+        height: 100%;
+    }
+    #welcome{
+        background: url(./../../public/assets/images/full.png) no-repeat;
+        background-size: contain;
+    }
+    #intro{
+        background: url(./../../public/assets/images/side.png) no-repeat;
+        background-size: contain;
+    }
+    #agenda, #firebase, #storage, #database, #firestore, #auth, #messaging, #hosting, #q_n_a, #end{
+        background: url(./../../public/assets/images/empty.png) no-repeat;
+        background-size: contain;
+    }
+    .vertical-center {
+        min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 70vh; /* These two lines are counted as one :-)       */
+
+        display: flex;
+        /*flex-direction: column;*/
+        align-items: center;
+    }
+    .padd{
+        padding: 100px;
+    }
+    .agenda {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 30px 50px;
+        border-left: 3px solid #7B7EF8;
+        min-height: 100%;
+    }
+    h2{
+        line-height: normal;
+    }
+    .yellow{
+        color: #f4cf44;
+    }
+    .blue {
+
+    }
+    .list{
+        ul{
+            list-style: square;
+            li{
+                margin-bottom: 20px!important;
+                font-size: 20px;
+            }
+        }
+        padding: 30px 20px;
+        margin-top: 20px;
+    }
+</style>

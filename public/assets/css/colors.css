@@ -28,7 +28,7 @@
 #navbar_menu ul ul li a:hover,
 #navbar_menu ul ul li a:focus,
 .full_slider_inner,
-.bg_load,
+/*.bg_load,*/
 .theme_color_bg,
 .price_table_active .price_head,
 a.btn.dark_gray_bt:hover,
@@ -51,6 +51,9 @@ a.btn.dark_gray_bt:focus,
 a.btn.main_bt,
 button.btn.main_bt {
 	background: #632e62;
+}
+.bg_load{
+	background: #fff;
 }
 
 a.btn.main_bt:hover,

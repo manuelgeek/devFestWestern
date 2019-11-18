@@ -10,6 +10,12 @@ const routes = [
     name: 'home',
     component: Home
   },
+  {
+    path: '/index.html', // ? or '*' this is for PWA
+    beforeEnter: (_to, _from, next) => {
+      next('/')
+    }
+  },
 ]
 
 const router = new VueRouter({

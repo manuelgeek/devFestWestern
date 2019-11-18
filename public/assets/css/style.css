@@ -820,21 +820,21 @@ blockquote {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 40px;
 	color: #000;
 	line-height: 36px;
 	font-weight: 700;
 	position: relative;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 h3 {
 	font-size: 24px;
 	color: #000;
 	line-height: normal;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-weight: 600;
+	/*text-transform: uppercase;*/
 }
 
 h4 {
@@ -3368,4 +3368,8 @@ footer h4 {
 	float: left;
 	font-size: 14px;
 	margin: 0 14px;
+}
+
+.margin-50{
+    margin-bottom: 50px!important;
 }
