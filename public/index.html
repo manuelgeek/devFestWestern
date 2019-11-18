@@ -1,17 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>devfestwestern_firebase</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but devfestwestern_firebase doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <!-- Site Metas -->
+        <title>Flat.Seo - Responsive HTML5 Template</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Site Icons -->
+        <link rel="icon" href="assets/images/fevicon/icon_purple.gif" type="image/gif" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/landing_page/css/bootstrap.min.css">
+        <!-- Site CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- theme_preview -->
+        <link rel="stylesheet" href="assets/css/landing.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Colors CSS -->
+        <link rel="stylesheet" href="assets/css/colors.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- Wow Animation CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="purple_color">
+        <noscript>
+            <strong>We're sorry but devfestwestern_firebase doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        </noscript>
+
+        <div class="bg_load" style="z-index:9999;">
+            <div class="verticle-center"><img class="loader_animation" src="assets/images/loaders/loader_1.png" alt="#" /></div>
+        </div>
+
+        <div id="app"></div>
+
+        <!-- built files will be auto injected -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="assets/landing_page/js/bootstrap.min.js"></script>
+        <!-- Menu JS -->
+        <script src="assets/js/menumaker.js"></script>
+        <!-- Wow Animation -->
+        <script src="assets/js/wow.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript) -->
+        <script src="assets/js/custom.js"></script>
+        <!-- side bar menu -->
+        <script>
+            $(document).ready(function() {
+                var trigger = $('.hamburger'),
+                    overlay = $('.overlay'),
+                    isClosed = false;
+
+                trigger.click(function() {
+                    hamburger_cross();
+                });
+
+                function hamburger_cross() {
+
+                    if (isClosed == true) {
+                        overlay.hide();
+                        trigger.removeClass('is-open');
+                        trigger.addClass('is-closed');
+                        isClosed = false;
+                    } else {
+                        overlay.show();
+                        trigger.removeClass('is-closed');
+                        trigger.addClass('is-open');
+                        isClosed = true;
+                    }
+                }
+
+                $('[data-toggle="offcanvas"]').click(function() {
+                    $('#wrapper').toggleClass('toggled');
+                });
+            });
+        </script>
+        <!-- scroll to id -->
+        <script>
+            function scrollNav() {
+                $('.nav a').click(function() {
+                    //Toggle Class
+                    $(".active").removeClass("active");
+                    $(this).closest('li').addClass("active");
+                    var theClass = $(this).attr("class");
+                    $('.' + theClass).parent('li').addClass('active');
+                    //Animate
+                    $('html, body').stop().animate({
+                        scrollTop: $($(this).attr('href')).offset().top - 0
+                    }, 400);
+                    return false;
+                });
+                $('.scrollTop a').scrollTop();
+            }
+            scrollNav();
+        </script>
+    </body>
 </html>

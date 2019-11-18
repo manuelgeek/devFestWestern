@@ -1,0 +1,1000 @@
+/*------------------------------------------------------------------
+    File Name: colors.css
+    Template Name: Flat.Seo - Responsive HTML5 Template
+    Created By: WordPressShowcase
+    Envato Profile: https://themeforest.net/user/WordPressShowcase
+    Website: https://showwp.com
+    Version: 1.0
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    [Table of contents]
+
+    1. DEFAULT COLOR ( Check style.css )
+	2. LIGHT_BLUE
+	3. LIGHT_ORANGE
+	4. YELLOW COLOR_THEME
+	5. GREAM COLOR_THEME
+    
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    1. DEFAULT COLOR
+-------------------------------------------------------------------*/
+
+.header_top,
+#navbar_menu ul ul li a:hover,
+#navbar_menu ul ul li a:focus,
+.full_slider_inner,
+.bg_load,
+.theme_color_bg,
+.price_table_active .price_head,
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus,
+.carousel-indicators .active,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.progress-bar,
+.tags a:hover,
+.tags a:focus,
+.testimonial_slider .carousel-control:hover,
+.testimonial_slider .carousel-control:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.icon_feature,
+a.btn.main_bt,
+button.btn.main_bt {
+	background: #632e62;
+}
+
+a.btn.main_bt:hover,
+a.btn.main_bt:focus,
+button.btn.main_bt:hover,
+button.btn.main_bt:focus {
+	background: #a864a8;
+	color: #fff;
+}
+
+.header_top ul li a:hover,
+.header_top ul li a:focus,
+.header_top ul li a:active {
+	color: #eabbea;
+}
+
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus {
+	color: #fff;
+}
+
+a.btn.light_btn,
+button.btn.light_btn {
+	background: #a864a8;
+}
+
+a.btn.light_btn:hover,
+a.btn.light_btn:focus button.btn.light_btn:hover,
+a.btn.light_btn:focus {
+	background: #fff;
+	color: #632e62;
+	border-color: #fff;
+}
+
+.modal-backdrop {
+	background-color: rgba(99, 46, 98, .95);
+}
+
+#navbar_menu ul ul,
+hr.dottad_border,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.tags a:hover,
+.tags a:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.comment_section,
+.boder_dottat_small {
+	border-color: #632e62;
+}
+
+.theme_color,
+.social_icon_style_2 li a,
+.blog_section p.comm_head,
+.blog_section p.comm_head a.rply,
+.description_case_studies_style_2 span i,
+.price_table_active .price_amount,
+.post_head a:hover,
+.post_head a:focus,
+a.read_more,
+.blog_section .social_icon ul li a,
+.icon_bottom,
+ul.list_style_1 i,
+.qoute_testimonial i,
+.categary a:hover,
+.categary a:focus,
+.post_info li i,
+.comment_cantrol span,
+.footer_top ul.footer_menu li a:hover,
+.footer_top ul.footer_menu li a:focus,
+footer .social_icon ul li a:hover,
+footer .social_icon ul li a:focus,
+a.btn:hover,
+button.btn:hover,
+a.btn:focus,
+button.btn:focus {
+	color: #632e62;
+}
+
+.price_table_active a.btn:hover,
+.price_table_active a.btn:focus {
+	background: #252525;
+	color: #fff;
+}
+
+.border_dotted_circle:hover,
+.border_dotted_circle:focus {
+	border-color: #632e62;
+}
+
+.btn.light_theme_bt {
+	background: #a864a8;
+}
+
+.btn.light_theme_bt:hover,
+.btn.light_theme_bt:focus {
+	background: #50254f;
+	color: #fff;
+	border: solid #50254f 1px;
+}
+
+.theme_color_bg .border_dotted_circle,
+.theme_color_bg .border_dotted_circle:hover,
+.theme_color_bg .border_dotted_circle:focus {
+	border-color: #fff;
+}
+
+button.border_btn_white_border,
+a.border_btn_white_border {
+	background: transparent;
+	border: solid #fff 1px;
+}
+
+button.border_btn_white_border:focus,
+button.border_btn_white_border:hover,
+a.border_btn_white_border:hover,
+a.border_btn_white_border:focus {
+	background: #fff;
+	border: solid #fff 1px;
+}
+
+body.light_blue button.btn.white_btn:hover,
+body.light_blue a.btn.white_btn:hover,
+body.light_blue button.btn.white_btn:focus,
+body.light_blue a.btn.white_btn:focus {
+	background: #632e62;
+	border-color: #632e62;
+	color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+    2. LIGHT_BLUE
+-------------------------------------------------------------------*/
+
+body.light_blue #navbar_menu ul ul li a:hover,
+body.light_blue #navbar_menu ul ul li a:focus,
+body.light_blue .full_slider_inner,
+body.light_blue .bg_load,
+body.light_blue .theme_color_bg,
+body.light_blue .price_table_active .price_head,
+body.light_blue a.btn.dark_gray_bt:hover,
+body.light_blue a.btn.dark_gray_bt:focus,
+body.light_blue .main_bg,
+body.light_blue .carousel-indicators .active,
+body.light_blue .social_icon_style_2 ul li a:hover,
+body.light_blue .social_icon_style_2 ul li a:focus,
+body.light_blue .progress-bar,
+body.light_blue .tags a:hover,
+body.light_blue .tags a:focus,
+body.light_blue .testimonial_slider .carousel-control:hover,
+body.light_blue .testimonial_slider .carousel-control:focus,
+body.light_blue .pagination>.active>a,
+body.light_blue .pagination>.active>a:focus,
+body.light_blue .pagination>.active>a:hover,
+body.light_blue .pagination>.active>span,
+body.light_blue .pagination>.active>span:focus,
+body.light_blue .pagination>.active>span:hover,
+body.light_blue a.btn.border_btn:hover,
+body.light_blue button.btn.border_btn:hover,
+body.light_blue a.btn.border_btn:focus,
+body.light_blue button.btn.border_btn:focus,
+body.light_blue .icon_feature,
+body.light_blue a.btn.main_bt,
+body.light_blue button.btn.main_bt {
+	background: #3ec0c5;
+}
+
+body.light_blue a.btn.main_bt:hover,
+body.light_blue a.btn.main_bt:focus,
+body.light_blue button.btn.main_bt:hover,
+body.light_blue button.btn.main_bt:focus {
+	background: #1bb2b8;
+	color: #fff;
+}
+
+body.light_blue .slider_contant a.btn,
+body.light_blue .slider_contant button.btn {
+	background: transparent;
+}
+
+body.light_blue .header_top ul li a:hover,
+body.light_blue .header_top ul li a:focus,
+body.light_blue .header_top ul li a:active {
+	color: #a1e1e3;
+}
+
+body.light_blue a.btn.dark_gray_bt:hover,
+body.light_blue a.btn.dark_gray_bt:focus,
+body.light_blue a.btn.border_btn:hover,
+body.light_blue button.btn.border_btn:hover,
+body.light_blue a.btn.border_btn:focus,
+body.light_blue button.btn.border_btn:focus {
+	color: #fff;
+}
+
+body.light_blue a.btn:hover,
+body.light_blue button.btn:hover,
+body.light_blue a.btn:focus,
+body.light_blue button.btn:focus {
+	background: #fff;
+	color: #1bb2b8;
+	border: solid #1bb2b8 1px;
+}
+
+body.light_blue button.border_btn_white_border,
+body.light_blue a.border_btn_white_border {
+	background: transparent;
+	border: solid #fff 1px;
+}
+
+body.light_blue button.border_btn_white_border:focus,
+body.light_blue button.border_btn_white_border:hover,
+body.light_blue a.border_btn_white_border:hover,
+body.light_blue a.border_btn_white_border:focus {
+	background: #fff;
+	border: solid #fff 1px;
+}
+
+body.light_blue .modal-backdrop {
+	background-color: rgba(62, 192, 197, .95);
+}
+
+body.light_blue #navbar_menu ul ul,
+body.light_blue hr.dottad_border,
+body.light_blue .social_icon_style_2 ul li a:hover,
+body.light_blue .social_icon_style_2 ul li a:focus,
+body.light_blue .tags a:hover,
+body.light_blue .tags a:focus,
+body.light_blue .pagination>.active>a,
+body.light_blue .pagination>.active>a:focus,
+body.light_blue .pagination>.active>a:hover,
+body.light_blue .pagination>.active>span,
+body.light_blue .pagination>.active>span:focus,
+body.light_blue .pagination>.active>span:hover,
+body.light_blue .comment_section,
+body.light_blue a.btn.border_btn,
+body.light_blue button.btn.border_btn,
+body.light_blue .boder_dottat_small {
+	border-color: #3ec0c5;
+}
+
+body.light_blue .theme_color,
+body.light_blue .social_icon_style_2 li a,
+body.light_blue .blog_section p.comm_head,
+body.light_blue .blog_section p.comm_head a.rply,
+body.light_blue .description_case_studies_style_2 span i,
+body.light_blue .price_table_active .price_amount,
+body.light_blue .post_head a:hover,
+body.light_blue .post_head a:focus,
+body.light_blue a.read_more,
+body.light_blue .blog_section .social_icon ul li a,
+body.light_blue .icon_bottom,
+body.light_blue ul.list_style_1 i,
+body.light_blue .qoute_testimonial i,
+body.light_blue .categary a:hover,
+body.light_blue .categary a:focus,
+body.light_blue .post_info li i,
+body.light_blue .comment_cantrol span,
+body.light_blue a.btn.border_btn,
+body.light_blue button.btn.border_btn,
+body.light_blue .footer_top ul.footer_menu li a:hover,
+body.light_blue .footer_top ul.footer_menu li a:focus,
+body.light_blue footer .social_icon ul li a:hover,
+body.light_blue footer .social_icon ul li a:focus {
+	color: #3ec0c5;
+}
+
+.price_table_active a.btn:hover,
+.price_table_active a.btn:focus {
+	background: #252525;
+	color: #fff;
+}
+
+body.light_blue .border_dotted_circle:hover,
+body.light_blue .border_dotted_circle:focus {
+	border-color: #3ec0c5;
+}
+
+body.light_blue .theme_color_bg .border_dotted_circle,
+body.light_blue .theme_color_bg .border_dotted_circle:hover,
+body.light_blue .theme_color_bg .border_dotted_circle:focus {
+	border-color: #fff;
+}
+
+body.light_blue .btn.light_theme_bt {
+	background: #a1e1e3;
+}
+
+body.light_blue .btn.light_theme_bt:hover,
+body.light_blue .btn.light_theme_bt:focus {
+	background: #146c6f;
+	color: #fff;
+	border: solid #146c6f 1px;
+}
+
+body.light_blue div.bottom_menu ul li a {
+	color: #737373;
+}
+
+body.light_blue div.bottom_menu ul li a:hover,
+body.light_blue div.bottom_menu ul li a:focus {
+	color: #000;
+}
+
+body.light_blue button.btn.white_btn:hover,
+body.light_blue a.btn.white_btn:hover,
+body.light_blue button.btn.white_btn:focus,
+body.light_blue a.btn.white_btn:focus {
+	background: #3ec0c5;
+	border-color: #3ec0c5;
+	color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+    3. LIGHT_ORANGE
+-------------------------------------------------------------------*/
+
+body.light_orange #navbar_menu ul ul li a:hover,
+body.light_orange #navbar_menu ul ul li a:focus,
+body.light_orange .full_slider_inner,
+body.light_orange .bg_load,
+body.light_orange .theme_color_bg,
+body.light_orange .price_table_active .price_head,
+body.light_orange a.btn.dark_gray_bt:hover,
+body.light_orange a.btn.dark_gray_bt:focus,
+body.light_orange .main_bg,
+body.light_orange .carousel-indicators .active,
+body.light_orange .social_icon_style_2 ul li a:hover,
+body.light_orange .social_icon_style_2 ul li a:focus,
+body.light_orange .progress-bar,
+body.light_orange .tags a:hover,
+body.light_orange .tags a:focus,
+body.light_orange .testimonial_slider .carousel-control:hover,
+body.light_orange .testimonial_slider .carousel-control:focus,
+body.light_orange .pagination>.active>a,
+body.light_orange .pagination>.active>a:focus,
+body.light_orange .pagination>.active>a:hover,
+body.light_orange .pagination>.active>span,
+body.light_orange .pagination>.active>span:focus,
+body.light_orange .pagination>.active>span:hover,
+body.light_orange a.btn.border_btn:hover,
+body.light_orange button.btn.border_btn:hover,
+body.light_orange a.btn.border_btn:focus,
+body.light_orange button.btn.border_btn:focus,
+body.light_orange .icon_feature,
+body.light_orange a.btn.main_bt,
+body.light_orange button.btn.main_bt {
+	background: #fe9275;
+}
+
+body.light_orange footer {
+	background: #fe9275;
+}
+
+body.light_orange .bottom_footer {
+	background: #ee8873;
+}
+
+body.light_orange a.btn.main_bt:hover,
+body.light_orange a.btn.main_bt:focus,
+body.light_orange button.btn.main_bt:hover,
+body.light_orange button.btn.main_bt:focus,
+body.light_orange button.btn.white_btn:hover,
+a.btn.white_btn:hover,
+body.light_orange button.btn.white_btn:focus,
+a.btn.white_btn:focus {
+	background: #fe9275;
+	color: #fff;
+}
+
+body.light_orange .header_top ul li a:hover,
+body.light_orange .header_top ul li a:focus,
+body.light_orange .header_top ul li a:active {
+	color: #fe9275;
+}
+
+body.light_orange a.btn.dark_gray_bt:hover,
+body.light_orange a.btn.dark_gray_bt:focus,
+body.light_orange a.btn.border_btn:hover,
+body.light_orange button.btn.border_btn:hover,
+body.light_orange a.btn.border_btn:focus,
+body.light_orange button.btn.border_btn:focus {
+	color: #fff;
+}
+
+body.light_orange a.btn:hover,
+body.light_orange button.btn:hover,
+body.light_orange a.btn:focus,
+body.light_orange button.btn:focus {
+	background: #fff;
+	color: #fe9275;
+	border: solid #fe9275 1px;
+}
+
+body.light_orange button.border_btn_white_border,
+body.light_orange a.border_btn_white_border {
+	background: transparent;
+	border: solid #fff 1px;
+}
+
+body.light_orange button.border_btn_white_border:focus,
+body.light_orange button.border_btn_white_border:hover,
+body.light_orange a.border_btn_white_border:hover,
+body.light_orange a.border_btn_white_border:focus {
+	background: #fff;
+	border: solid #fff 1px;
+}
+
+body.light_orange .modal-backdrop {
+	background-color: rgba(254, 146, 117, .95);
+}
+
+body.light_orange #navbar_menu ul ul,
+body.light_orange hr.dottad_border,
+body.light_orange .social_icon_style_2 ul li a:hover,
+body.light_orange .social_icon_style_2 ul li a:focus,
+body.light_orange .tags a:hover,
+body.light_orange .tags a:focus,
+body.light_orange .pagination>.active>a,
+body.light_orange .pagination>.active>a:focus,
+body.light_orange .pagination>.active>a:hover,
+body.light_orange .pagination>.active>span,
+body.light_orange .pagination>.active>span:focus,
+body.light_orange .pagination>.active>span:hover,
+body.light_orange .comment_section,
+body.light_orange a.btn.border_btn,
+body.light_orange button.btn.border_btn,
+body.light_orange .boder_dottat_small {
+	border-color: #fe9275;
+}
+
+body.light_orange .theme_color,
+body.light_orange .social_icon_style_2 li a,
+body.light_orange .blog_section p.comm_head,
+body.light_orange .blog_section p.comm_head a.rply,
+body.light_orange .description_case_studies_style_2 span i,
+body.light_orange .price_table_active .price_amount,
+body.light_orange .post_head a:hover,
+body.light_orange .post_head a:focus,
+body.light_orange a.read_more,
+body.light_orange .blog_section .social_icon ul li a,
+body.light_orange .icon_bottom,
+body.light_orange ul.list_style_1 i,
+body.light_orange .qoute_testimonial i,
+body.light_orange .categary a:hover,
+body.light_orange .categary a:focus,
+body.light_orange .post_info li i,
+body.light_orange .comment_cantrol span,
+body.light_orange a.btn.border_btn,
+body.light_orange button.btn.border_btn,
+body.light_orange .footer_top ul.footer_menu li a:hover,
+body.light_orange .footer_top ul.footer_menu li a:focus,
+body.light_orange footer .social_icon ul li a:hover,
+body.light_orange footer .social_icon ul li a:focus,
+button.btn.white_btn,
+a.btn.white_btn {
+	color: #fe9275;
+}
+
+.price_table_active a.btn:hover,
+.price_table_active a.btn:focus {
+	background: #252525;
+	color: #fff;
+}
+
+body.light_orange .border_dotted_circle:hover,
+body.light_orange .border_dotted_circle:focus {
+	border-color: #cf6e54;
+}
+
+body.light_orange .theme_color_bg .border_dotted_circle,
+body.light_orange .theme_color_bg .border_dotted_circle:hover,
+body.light_orange .theme_color_bg .border_dotted_circle:focus {
+	border-color: #fff;
+}
+
+body.light_orange .btn.light_theme_bt {
+	background: #cf6e54;
+}
+
+body.light_orange .btn.light_theme_bt:hover,
+body.light_orange .btn.light_theme_bt:focus {
+	background: #fe9275;
+	color: #fff;
+	border: solid #fe9275 1px;
+}
+
+body.light_orange div.bottom_menu ul li a {
+	color: #737373;
+}
+
+body.light_orange div.bottom_menu ul li a:hover,
+body.light_orange div.bottom_menu ul li a:focus {
+	color: #000;
+}
+
+body.light_orange button.btn.white_btn:hover,
+body.light_orange a.btn.white_btn:hover,
+body.light_orange button.btn.white_btn:focus,
+body.light_orange a.btn.white_btn:focus {
+	background: #cf6e54;
+	border-color: #cf6e54;
+	color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+    4. YELLOW COLOR_THEME
+-------------------------------------------------------------------*/
+
+body.yellow_theme #navbar_menu ul ul li a:hover,
+body.yellow_theme #navbar_menu ul ul li a:focus,
+body.yellow_theme .full_slider_inner,
+body.yellow_theme .bg_load,
+body.yellow_theme .theme_color_bg,
+body.yellow_theme .price_table_active .price_head,
+body.yellow_theme a.btn.dark_gray_bt:hover,
+body.yellow_theme a.btn.dark_gray_bt:focus,
+body.yellow_theme .main_bg,
+body.yellow_theme .carousel-indicators .active,
+body.yellow_theme .social_icon_style_2 ul li a:hover,
+body.yellow_theme .social_icon_style_2 ul li a:focus,
+body.yellow_theme .progress-bar,
+body.yellow_theme .tags a:hover,
+body.yellow_theme .tags a:focus,
+body.yellow_theme .testimonial_slider .carousel-control:hover,
+body.yellow_theme .testimonial_slider .carousel-control:focus,
+body.yellow_theme .pagination>.active>a,
+body.yellow_theme .pagination>.active>a:focus,
+body.yellow_theme .pagination>.active>a:hover,
+body.yellow_theme .pagination>.active>span,
+body.yellow_theme .pagination>.active>span:focus,
+body.yellow_theme .pagination>.active>span:hover,
+body.yellow_theme a.btn.border_btn:hover,
+body.yellow_theme button.btn.border_btn:hover,
+body.yellow_theme a.btn.border_btn:focus,
+body.yellow_theme button.btn.border_btn:focus,
+body.yellow_theme .icon_feature,
+body.yellow_theme a.btn.main_bt,
+body.yellow_theme button.btn.main_bt {
+	background: #f4aa33;
+}
+
+body.yellow_theme footer {
+	background: #f4aa33;
+}
+
+body.yellow_theme .bottom_footer {
+	background: #db992e;
+}
+
+body.yellow_theme a.btn.main_bt:hover,
+body.yellow_theme a.btn.main_bt:focus,
+body.yellow_theme button.btn.main_bt:hover,
+body.yellow_theme button.btn.main_bt:focus,
+body.yellow_theme button.btn.white_btn:hover,
+a.btn.white_btn:hover,
+body.yellow_theme button.btn.white_btn:focus,
+a.btn.white_btn:focus {
+	background: #252525;
+	border-color: #252525;
+	color: #fff;
+}
+
+body.yellow_theme .header_top ul li a:hover,
+body.yellow_theme .header_top ul li a:focus,
+body.yellow_theme .header_top ul li a:active {
+	color: #fff;
+}
+
+body.yellow_theme a.btn.dark_gray_bt:hover,
+body.yellow_theme a.btn.dark_gray_bt:focus,
+body.yellow_theme a.btn.border_btn:hover,
+body.yellow_theme button.btn.border_btn:hover,
+body.yellow_theme a.btn.border_btn:focus,
+body.yellow_theme button.btn.border_btn:focus {
+	color: #fff;
+}
+
+body.yellow_theme a.btn:hover,
+body.yellow_theme button.btn:hover,
+body.yellow_theme a.btn:focus,
+body.yellow_theme button.btn:focus {
+	background: #fff;
+	color: #f4aa33;
+	border: solid #f4aa33 1px;
+}
+
+body.yellow_theme button.border_btn_white_border,
+body.yellow_theme a.border_btn_white_border {
+	background: transparent;
+	border: solid #fff 1px;
+}
+
+body.yellow_theme button.border_btn_white_border:focus,
+body.yellow_theme button.border_btn_white_border:hover,
+body.yellow_theme a.border_btn_white_border:hover,
+body.yellow_theme a.border_btn_white_border:focus {
+	background: #fff;
+	border: solid #fff 1px;
+}
+
+body.yellow_theme .modal-backdrop {
+	background-color: rgba(244, 170, 51, .95);
+}
+
+body.yellow_theme #navbar_menu ul ul,
+body.yellow_theme hr.dottad_border,
+body.yellow_theme .social_icon_style_2 ul li a:hover,
+body.yellow_theme .social_icon_style_2 ul li a:focus,
+body.yellow_theme .tags a:hover,
+body.yellow_theme .tags a:focus,
+body.yellow_theme .pagination>.active>a,
+body.yellow_theme .pagination>.active>a:focus,
+body.yellow_theme .pagination>.active>a:hover,
+body.yellow_theme .pagination>.active>span,
+body.yellow_theme .pagination>.active>span:focus,
+body.yellow_theme .pagination>.active>span:hover,
+body.yellow_theme .comment_section,
+body.yellow_theme a.btn.border_btn,
+body.yellow_theme button.btn.border_btn,
+body.yellow_theme .boder_dottat_small {
+	border-color: #f4aa33;
+}
+
+body.yellow_theme .theme_color,
+body.yellow_theme .social_icon_style_2 li a,
+body.yellow_theme .blog_section p.comm_head,
+body.yellow_theme .blog_section p.comm_head a.rply,
+body.yellow_theme .description_case_studies_style_2 span i,
+body.yellow_theme .price_table_active .price_amount,
+body.yellow_theme .post_head a:hover,
+body.yellow_theme .post_head a:focus,
+body.yellow_theme a.read_more,
+body.yellow_theme .blog_section .social_icon ul li a,
+body.yellow_theme .icon_bottom,
+body.yellow_theme ul.list_style_1 i,
+body.yellow_theme .qoute_testimonial i,
+body.yellow_theme .categary a:hover,
+body.yellow_theme .categary a:focus,
+body.yellow_theme .post_info li i,
+body.yellow_theme .comment_cantrol span,
+body.yellow_theme a.btn.border_btn,
+body.yellow_theme button.btn.border_btn,
+body.yellow_theme .footer_top ul.footer_menu li a:hover,
+body.yellow_theme .footer_top ul.footer_menu li a:focus,
+body.yellow_theme footer .social_icon ul li a:hover,
+body.yellow_theme footer .social_icon ul li a:focus,
+body.yellow_theme button.btn.white_btn,
+body.yellow_theme a.btn.white_btn {
+	color: #f4aa33;
+}
+
+.price_table_active a.btn:hover,
+.price_table_active a.btn:focus {
+	background: #252525;
+	color: #fff;
+}
+
+body.yellow_theme .border_dotted_circle:hover,
+body.yellow_theme .border_dotted_circle:focus {
+	border-color: #f4aa33;
+}
+
+body.yellow_theme .theme_color_bg .border_dotted_circle,
+body.yellow_theme .theme_color_bg .border_dotted_circle:hover,
+body.yellow_theme .theme_color_bg .border_dotted_circle:focus {
+	border-color: #fff;
+}
+
+body.yellow_theme .btn.light_theme_bt {
+	background: #ebb763;
+}
+
+body.yellow_theme .btn.light_theme_bt:hover,
+body.yellow_theme .btn.light_theme_bt:focus {
+	background: #ebb763;
+	color: #fff;
+	border: solid #ebb763 1px;
+}
+
+body.yellow_theme div.bottom_menu ul li a {
+	color: #737373;
+}
+
+body.yellow_theme div.bottom_menu ul li a:hover,
+body.yellow_theme div.bottom_menu ul li a:focus {
+	color: #000;
+}
+
+body.yellow_theme button.btn.white_btn:hover,
+body.yellow_theme a.btn.white_btn:hover,
+body.yellow_theme button.btn.white_btn:focus,
+body.yellow_theme a.btn.white_btn:focus {
+	background: #252525;
+	border-color: #252525;
+	color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+    5. GREAM COLOR_THEME
+-------------------------------------------------------------------*/
+
+body.gream_color_theme #navbar_menu ul ul li a:hover,
+body.gream_color_theme #navbar_menu ul ul li a:focus,
+body.gream_color_theme .full_slider_inner,
+body.gream_color_theme .bg_load,
+body.gream_color_theme .theme_color_bg,
+body.gream_color_theme .price_table_active .price_head,
+body.gream_color_theme a.btn.dark_gray_bt:hover,
+body.gream_color_theme a.btn.dark_gray_bt:focus,
+body.gream_color_theme .main_bg,
+body.gream_color_theme .carousel-indicators .active,
+body.gream_color_theme .social_icon_style_2 ul li a:hover,
+body.gream_color_theme .social_icon_style_2 ul li a:focus,
+body.gream_color_theme .tags a:hover,
+body.gream_color_theme .tags a:focus,
+body.gream_color_theme .testimonial_slider .carousel-control:hover,
+body.gream_color_theme .testimonial_slider .carousel-control:focus,
+body.gream_color_theme .pagination>.active>a,
+body.gream_color_theme .pagination>.active>a:focus,
+body.gream_color_theme .pagination>.active>a:hover,
+body.gream_color_theme .pagination>.active>span,
+body.gream_color_theme .pagination>.active>span:focus,
+body.gream_color_theme .pagination>.active>span:hover,
+body.gream_color_theme a.btn.border_btn:hover,
+body.gream_color_theme button.btn.border_btn:hover,
+body.gream_color_theme a.btn.border_btn:focus,
+body.gream_color_theme button.btn.border_btn:focus,
+body.gream_color_theme .icon_feature,
+body.gream_color_theme button.btn.main_bt {
+	background: #e9dcbe;
+}
+
+body.gream_color_theme .progress {
+	background: #d1c6ab;
+}
+
+body.gream_color_theme .full_slider_inner,
+body.gream_color_theme .progress-bar {
+	background: #8e8b82;
+}
+
+body.gream_color_theme footer {
+	background: #8e8b82;
+}
+
+body.gream_color_theme .bottom_footer {
+	background: #807d75;
+}
+
+body.gream_color_theme a.btn.main_bt:hover,
+body.gream_color_theme a.btn.main_bt:focus,
+body.gream_color_theme button.btn.white_btn:hover,
+a.btn.white_btn:hover,
+body.gream_color_theme button.btn.white_btn:focus,
+a.btn.white_btn:focus {
+	background: #252525;
+	border-color: #252525;
+	color: #fff;
+}
+
+body.gream_color_theme a.btn.main_bt {
+	background: #e9dcbe;
+	color: #8e8b82;
+}
+
+body.gream_color_theme a.btn.main_bt:hover,
+body.gream_color_theme a.btn.main_bt:focus {
+	background: #8e8b82;
+	color: #e9dcbe;
+	border-color: #8e8b82;
+}
+
+body.gream_color_theme .header_top ul li a:hover,
+body.gream_color_theme .header_top ul li a:focus,
+body.gream_color_theme .header_top ul li a:active {
+	color: #8e8b82;
+}
+
+body.gream_color_theme a.btn.dark_gray_bt:hover,
+body.gream_color_theme a.btn.dark_gray_bt:focus,
+body.gream_color_theme a.btn.border_btn:hover,
+body.gream_color_theme button.btn.border_btn:hover,
+body.gream_color_theme a.btn.border_btn:focus,
+body.gream_color_theme button.btn.border_btn:focus {
+	color: #8e8b82;
+}
+
+body.gream_color_theme a.btn:hover,
+body.gream_color_theme button.btn:hover,
+body.gream_color_theme a.btn:focus,
+body.gream_color_theme button.btn:focus {
+	background: #fff;
+	color: #e9dcbe;
+	border: solid #e9dcbe 1px;
+}
+
+body.gream_color_theme button.border_btn_white_border,
+body.gream_color_theme a.border_btn_white_border {
+	background: transparent;
+	border: solid #fff 1px;
+}
+
+body.gream_color_theme button.border_btn_white_border:focus,
+body.gream_color_theme button.border_btn_white_border:hover,
+body.gream_color_theme a.border_btn_white_border:hover,
+body.gream_color_theme a.border_btn_white_border:focus {
+	background: #fff;
+	border: solid #fff 1px;
+}
+
+body.gream_color_theme .modal-backdrop {
+	background-color: rgba(142, 139, 130, .95);
+}
+
+body.gream_color_theme #navbar_menu ul ul,
+body.gream_color_theme hr.dottad_border,
+body.gream_color_theme .social_icon_style_2 ul li a:hover,
+body.gream_color_theme .social_icon_style_2 ul li a:focus,
+body.gream_color_theme .tags a:hover,
+body.gream_color_theme .tags a:focus,
+body.gream_color_theme .pagination>.active>a,
+body.gream_color_theme .pagination>.active>a:focus,
+body.gream_color_theme .pagination>.active>a:hover,
+body.gream_color_theme .pagination>.active>span,
+body.gream_color_theme .pagination>.active>span:focus,
+body.gream_color_theme .pagination>.active>span:hover,
+body.gream_color_theme .comment_section,
+body.gream_color_theme a.btn.border_btn,
+body.gream_color_theme button.btn.border_btn,
+body.gream_color_theme .boder_dottat_small {
+	border-color: #e9dcbe;
+}
+
+body.gream_color_theme .theme_color,
+body.gream_color_theme .social_icon_style_2 li a,
+body.gream_color_theme .blog_section p.comm_head,
+body.gream_color_theme .blog_section p.comm_head a.rply,
+body.gream_color_theme .description_case_studies_style_2 span i,
+body.gream_color_theme .price_table_active .price_amount,
+body.gream_color_theme .post_head a:hover,
+body.gream_color_theme .post_head a:focus,
+body.gream_color_theme .blog_section .social_icon ul li a,
+body.gream_color_theme ul.list_style_1 i,
+body.gream_color_theme .qoute_testimonial i,
+body.gream_color_theme .categary a:hover,
+body.gream_color_theme .categary a:focus,
+body.gream_color_theme .post_info li i,
+body.gream_color_theme .comment_cantrol span,
+body.gream_color_theme a.btn.border_btn,
+body.gream_color_theme button.btn.border_btn,
+body.gream_color_theme .footer_top ul.footer_menu li a:hover,
+body.gream_color_theme .footer_top ul.footer_menu li a:focus,
+body.gream_color_theme footer .social_icon ul li a:hover,
+body.gream_color_theme footer .social_icon ul li a:focus,
+body.gream_color_theme button.btn.white_btn,
+body.gream_color_theme a.btn.white_btn,
+.process_blog span {
+	color: #e9dcbe;
+}
+
+body.gream_color_theme footer h4 {
+	color: #e9dcbe !important;
+}
+
+body.gream_color_theme a.read_more,
+body.gream_color_theme .icon_bottom {
+	color: #8e8b82;
+}
+
+body.gream_color_theme a.read_more:hover,
+body.gream_color_theme a.read_more:focus {
+	color: #222;
+}
+
+.process_blog h4 {
+	margin: 0 0 10px 0;
+}
+
+.price_table_active a.btn:hover,
+.price_table_active a.btn:focus {
+	background: #252525;
+	color: #fff;
+}
+
+body.gream_color_theme .border_dotted_circle:hover,
+body.gream_color_theme .border_dotted_circle:focus {
+	border-color: #e9dcbe;
+}
+
+body.gream_color_theme .theme_color_bg .border_dotted_circle,
+body.gream_color_theme .theme_color_bg .border_dotted_circle:hover,
+body.gream_color_theme .theme_color_bg .border_dotted_circle:focus {
+	border-color: #fff;
+}
+
+body.gream_color_theme .btn.light_theme_bt {
+	background: #e9dcbe;
+}
+
+body.gream_color_theme .btn.light_theme_bt:hover,
+body.gream_color_theme .btn.light_theme_bt:focus {
+	background: #e9dcbe;
+	color: #fff;
+	border: solid #e9dcbe 1px;
+}
+
+body.gream_color_theme div.bottom_menu ul li a,
+body.gream_color_theme div.bottom_menu ul li a:hover,
+body.gream_color_theme div.bottom_menu ul li a:focus {
+	color: #e9dcbe;
+}
+
+body.gream_color_theme button.btn.white_btn:hover,
+body.gream_color_theme a.btn.white_btn:hover,
+body.gream_color_theme button.btn.white_btn:focus,
+body.gream_color_theme a.btn.white_btn:focus {
+	background: #252525;
+	border-color: #252525;
+	color: #fff;
+}
+
+body.gream_color_theme footer a {
+    color: #fff;
+}
+
+body.gream_color_theme .bottom_silver_section.bottom_imformation {
+	background: #e9dcbe;
+}
+
+body.gream_color_theme #navbar_menu>ul>li>a,
+body.gream_color_theme .search_icon ul li a {
+	color: #e9dcbe;
+}
+
+body.gream_color_theme #navbar_menu ul ul li a:hover,
+body.gream_color_theme #navbar_menu ul ul li a:focus {
+	color: #8e8b82 !important;
+}
