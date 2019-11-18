@@ -24,9 +24,15 @@
         components: {
             SideNav,
         },
-        // created(){
-        //     console.log(this.$route.fullPath)
-        // }
+        created(){
+            // console.log(this.$route.fullPath)
+            window.addEventListener('online', () => {
+                alert('You are back online')
+            });
+            window.addEventListener('offline', () => {
+                alert('You are Offline')
+            });
+        }
     }
 </script>
 
