@@ -1,49 +1,30 @@
 <template>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <article class="wow fadeInDown" id="welcome">
+            <article v-if="currentPage.includes('welcome') " class="wow fadeInDown" id="welcome">
             </article>
-            <article class="wow fadeInDown" id="intro">
-                <div class="row">
-                    <div class="col-md-5">
-
-                    </div>
-                    <div class="col-md-7">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin_bottom_30_all">
-                            <div class="center">
-                                <img src="/assets/images/manu.png" width="200" class="img-circle" alt="me" />
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                            <div class="row margin_bottom_20_all">
-                                <div class="full">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <h3 class="margin_bottom_0">Magak Emmanuel</h3> <br>
-                                        <p class="large_2 theme_color">Vue | Laravel | Rails | BI and A</p>
-                                        <a href="https://manuel.appslab.co.ke">manuel.appslab.co.ke</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row margin_bottom_30_all">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <p class="large_2" > Apps:Lab KE - CTO <br> droidconKE - Organizer
-                                    </p>
-                                    <br><br>
-                                    <p class="large_2">@emashmagak</p>
-                                    <br><br><br>
-                                    <div class="social_icon_style_2 pull-left">
-                                        <ul>
-                                            <li><a target="_blank" href="https://github.com/manuelgeek"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                                            <li><a target="_blank" href="https://twitter.com/emashmagak"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+            <article v-if="currentPage.includes('title') " class="wow fadeInDown" id="title">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class="padd text-center vertical-center content-center">
+                            <h2 style="color: #7B7EF8; font-size: 80px">Build your Web with Firebase</h2>
+                            <br>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="agenda">
+            <article v-if="currentPage.includes('intro') " class="wow fadeInDown" id="intro">
+                <div class="row">
+                    <div class="col-md-5">
+<!--                        this is empty-->
+                    </div>
+                    <div class="col-md-7">
+<!--                        Firestore Demo-->
+                        <intro/>
+                    </div>
+                </div>
+            </article>
+            <article v-if="currentPage.includes('agenda') " class="wow fadeInDown" id="agenda">
                 <div class="row ">
                     <div class="col-md-6">
                         <div style="margin-left: 100px;" class="padd  vertical-center content-center">
@@ -62,7 +43,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="firebase">
+            <article v-if="currentPage.includes('firebase') " class="wow fadeInDown" id="firebase">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class="padd text-center vertical-center content-center">
@@ -76,7 +57,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="storage">
+            <article v-if="currentPage.includes('storage') " class="wow fadeInDown" id="storage">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class=" text-center">
@@ -103,7 +84,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="database">
+            <article v-if="currentPage.includes('database') " class="wow fadeInDown" id="database">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class=" text-center">
@@ -131,7 +112,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="firestore">
+            <article v-if="currentPage.includes('firestore') " class="wow fadeInDown" id="firestore">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class=" text-center">
@@ -160,7 +141,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="auth">
+            <article v-if="currentPage.includes('auth') " class="wow fadeInDown" id="auth">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class=" text-center">
@@ -196,7 +177,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="messaging">
+            <article v-if="currentPage.includes('messaging') " class="wow fadeInDown" id="messaging">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class=" text-center">
@@ -227,7 +208,10 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="hosting">
+            <article v-if="currentPage.includes('demo') " class="wow fadeInDown" id="demo">
+                <notification/>
+            </article>
+            <article v-if="currentPage.includes('hosting') " class="wow fadeInDown" id="hosting">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class=" text-center">
@@ -259,7 +243,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="q_n_a">
+            <article v-if="currentPage.includes('q_n_a') " class="wow fadeInDown" id="q_n_a">
                 <div class="row ">
                     <div class="col-md-12">
                         <div style="margin-left: 300px;" class="text-center vertical-center content-center">
@@ -268,7 +252,7 @@
                     </div>
                 </div>
             </article>
-            <article class="wow fadeInDown" id="end">
+            <article v-if="currentPage.includes('end') " class="wow fadeInDown" id="end">
                 <div class="row ">
                     <div class="col-md-12">
                         <div style="margin-left: 300px;" class="text-center vertical-center content-center">
@@ -288,11 +272,17 @@
 
 <script>
     // @ is an alias to /src
-
+    import Notification from "@/components/views/Notification";
+    import Intro from "@/components/views/Intro";
     export default {
         name: 'home',
         components: {
-
+            Notification, Intro,
+        },
+        computed:{
+            currentPage(){
+                return this.$route.fullPath;
+            },
         }
     }
 </script>
@@ -302,14 +292,14 @@
         height: 100%;
     }
     #welcome{
-        background: url(./../../public/assets/images/full.png) no-repeat;
+        background: url(./../../public/assets/images/fulll.jpg) no-repeat;
         background-size: contain;
     }
     #intro{
         background: url(./../../public/assets/images/side.png) no-repeat;
         background-size: contain;
     }
-    #agenda, #firebase, #storage, #database, #firestore, #auth, #messaging, #hosting, #q_n_a, #end{
+    #agenda, #title, #firebase, #storage, #database, #firestore, #auth, #messaging, #demo, #hosting, #q_n_a, #end{
         background: url(./../../public/assets/images/empty.png) no-repeat;
         background-size: contain;
     }

@@ -6,6 +6,8 @@ workbox.core.setCacheNameDetails({
     precache: 'precache',
     runtime: 'runtime',
 });
+// ? this clears the cache everytime you change the version
+
 //Change this value every time before you build
 const LATEST_VERSION = 'v1.0.0'
 // eslint-disable-next-line no-unused-vars

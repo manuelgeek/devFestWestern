@@ -84,7 +84,11 @@ body {
 	line-height: normal;
 	font-weight: 400;
 	overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
+
 
 body {
 	overflow-x: hidden;
@@ -3372,4 +3376,35 @@ footer h4 {
 
 .margin-50{
     margin-bottom: 50px!important;
+}
+
+/*notification*/
+.sidenav-overlay1{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    opacity:0;
+    /*height:120vh;*/
+    background-color:rgba(0,0,0,0.9);
+    z-index:99788888;
+    display:none;
+    width: 100%;
+    height: 100%;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.vertical-center1 {
+    /*margin: 60!important;*/
+    position: fixed;
+    top: 40%!important;
+    left: 30%;
+    color: #fff;
+    width: 100%;
+    color: #fff;
+}
+.fa-long-arrow-left {
+    font-size: 70px!important;
+    transform: rotate(50deg);
+    margin-top: -40px;
 }

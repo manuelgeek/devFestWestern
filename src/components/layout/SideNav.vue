@@ -1,10 +1,15 @@
 <template>
     <nav class="navbar navbar-inverse navbar-fixed-top nav" id="sidebar-wrapper">
         <div style="margin-top: -30px;" class="logo text-center">
-            <a href="#"><img src="/assets/images/logo.png" width="120" alt="logo" /></a>
+            <a href="#"><img :src="user.photoURL" class="img-circle" width="100" alt="logo" /></a>
+            <p>{{user.displayName}}</p>
+<!--            {{user}}-->
+            <br>
         </div>
         <ul class="nav sidebar-nav">
             <li :class="currentPage.includes('welcome') ? 'active' : ''"><a id="link1" class="nav-section1" href="#welcome"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Welcome</a></li>
+
+            <li :class="currentPage.includes('title') ? 'active' : ''"><a id="link31" class="nav-section1" href="#title"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Title</a></li>
 
             <li :class="currentPage.includes('intro') ? 'active' : ''"><a id="link2" class="nav-section2" href="#intro"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Intro</a></li>
 
@@ -29,11 +34,14 @@
             <li :class="currentPage.includes('q_n_a') ? 'active' : ''"><a id="link12" class="nav-section8" href="#q_n_a"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Q and A</a></li>
 
             <li :class="currentPage.includes('end') ? 'active' : ''"><a id="link13" class="nav-section8" href="#end"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> End</a></li>
+
+            <li :class="currentPage.includes('logout') ? 'active' : ''"><a id="link14" class="nav-section8" @click.prevent="logout" href="#logout"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Logout</a></li>
         </ul>
     </nav>
 </template>
 
 <script>
+    import firebase from '@/services/Firebase'
     export default {
         name: "SideNav",
         data(){
@@ -44,8 +52,25 @@
         computed:{
             currentPage(){
                 return this.$route.fullPath;
+            },
+            user(){
+                return firebase.auth().currentUser;
+            },
+        },
+        methods: {
+            logout(){
+                var r = confirm("You are about to Log out");
+                if (r == true) {
+                    firebase.auth().signOut().then(() => {
+                        localStorage.setItem('DevWest_authenticated', false)
+                        // this.$router.push('/login')
+                        window.location.href = '/login'
+                    })
+                } else {
+                    console.log('Not logged out')
+                }
             }
-        }
+        },
     }
 </script>
 
