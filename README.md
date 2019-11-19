@@ -28,7 +28,6 @@ VUE_APP_MESSAGING_TOPIC=all
 #### [Firebase Console](https://console.firebase.google.com/) Create your project, Web Option and get your credentials from `config` tab
 
 
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -43,6 +42,16 @@ npm run build
 ```
 npm run lint
 ```
+
+#### Firestore BD structure
+![image](public/assets/images/db.png)
+
+
+## Credits 
+
+### [droidConKE](https://droidcon.co.ke)
+
+### [Apps:Lab KE](https://appslab.co.ke)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
