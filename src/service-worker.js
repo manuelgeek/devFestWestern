@@ -1,5 +1,6 @@
 /* eslint-disable no-useless-escape */
 /* eslint-disable no-undef */
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({
     prefix: 'devWest',
@@ -9,7 +10,7 @@ workbox.core.setCacheNameDetails({
 // ? this clears the cache everytime you change the version
 
 //Change this value every time before you build
-const LATEST_VERSION = 'v1.0.0'
+const LATEST_VERSION = 'v1.0.2'
 // eslint-disable-next-line no-unused-vars
 self.addEventListener('activate', (_event) => {
     console.log(`%c ${LATEST_VERSION} `, 'background: #ddd; color: #0000ff')
@@ -65,11 +66,27 @@ workbox.routing.registerRoute(
         ]
     })
 );
+// 3. cache firebase storage images
+workbox.routing.registerRoute(
+    new RegExp('^https://firebasestorage\\.googleapis\\.com/'),
+    workbox.strategies.cacheFirst({
+        cacheName: 'devWest-cache-firebaseStorage-data',
+        plugins: [
+            new workbox.expiration.Plugin({
+                maxAgeSeconds: 60 * 60 * 24 * 7,
+                maxEntries: 50,
+                purgeOnQuotaError: true
+            })
+        ]
+    })
+);
 
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest,'/no-internet', {});
-workbox.routing.registerNavigationRoute('/index.html');
+workbox.routing.registerNavigationRoute('/index.html',{
+    blacklist: [/^\/__\/*/],
+});
 
 // install new service worker when ok, then reload page.
 self.addEventListener("message", msg=>{

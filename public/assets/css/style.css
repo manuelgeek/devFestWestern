@@ -60,7 +60,7 @@
 -------------------------------------------------------------------*/
 
 @import url(animate.css);
-@import url(font-awesome.min.css);
+/*@import url(font-awesome.min.css);*/
 
 /*------------------------------------------------------------------
     3. SKELETON
@@ -94,9 +94,9 @@ body {
 	overflow-x: hidden;
 }
 
-body.demos .section {
-	background: url(http://www.showwp.com/demos/flat-seo/css/images/bg.png) repeat top center #f2f3f5;
-}
+/*body.demos .section {*/
+/*	background: url(http://www.showwp.com/demos/flat-seo/css/images/bg.png) repeat top center #f2f3f5;*/
+/*}*/
 
 body.demos .section-title img {
 	max-width: 280px;

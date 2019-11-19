@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <article v-if="currentPage.includes('welcome') " class="wow fadeInDown" id="welcome">
+            <article v-if="currentPage.includes('welcome') || currentPage === '/' " class="wow fadeInDown" id="welcome">
             </article>
             <article v-if="currentPage.includes('title') " class="wow fadeInDown" id="title">
                 <div class="row ">
