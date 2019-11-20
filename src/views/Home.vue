@@ -3,7 +3,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <article v-if="currentPage.includes('welcome') || currentPage === '/' " class="wow fadeInDown" id="welcome">
             </article>
-            <article :style="{'display': currentPage.includes('title') ? 'block' : 'none'}" class="wow fadeInDown" id="title">
+            <article v-show="currentPage.includes('title') " class="wow fadeInDown" id="title">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class="padd text-center vertical-center content-center">

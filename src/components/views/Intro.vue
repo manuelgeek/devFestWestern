@@ -21,7 +21,7 @@
                     </p>
                     <br><br>
                     <p class="large_2">@{{detail.twitter}}</p>
-                    <br><br><br>
+                    <br><br>
                     <div class="social_icon_style_2 pull-left">
                         <ul>
                             <li><a target="_blank" :href="'https://github.com/'+detail.github"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -65,6 +65,10 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.margin_bottom_30_all{
+    @media (max-width: 1199px) {
+        margin-bottom: 80px;
+    }
+}
 </style>

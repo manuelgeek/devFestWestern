@@ -68,7 +68,7 @@ workbox.routing.registerRoute(
 );
 // 3. cache firebase storage images
 workbox.routing.registerRoute(
-    new RegExp('^https://firebasestorage\\.googleapis\\.com/'),
+    new RegExp('https://firebasestorage.googleapis.com/'),
     workbox.strategies.cacheFirst({
         cacheName: 'devWest-cache-firebaseStorage-data',
         plugins: [
