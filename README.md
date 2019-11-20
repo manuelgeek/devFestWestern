@@ -44,7 +44,7 @@ npm run lint
 ```
 
 #### Firestore BD structure
-![image](public/assets/images/db.png)
+![image](https://devfest-11a68.firebaseapp.com/assets/images/db.png)
 
 
 ## Credits 
