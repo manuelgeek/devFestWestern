@@ -1374,3 +1374,18 @@
 }
 	
 }
+
+
+@media (max-width: 1199px) {
+	html, body {
+		overflow: scroll!important;
+		height: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+    html, body {
+        overflow: hidden;
+        height: 100%;
+    }
+}

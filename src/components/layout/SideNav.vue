@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-inverse navbar-fixed-top nav" id="sidebar-wrapper">
         <div style="margin-top: -30px;" class="logo text-center">
-            <a href="#"><img :src="user.photoURL" class="img-circle" width="100" alt="logo" /></a>
+            <a href="#"><img :src="user.photoURL" class="img-circle avatar" alt="logo" /></a>
             <p>{{user.displayName}}</p>
 <!--            {{user}}-->
             <br>
@@ -33,7 +33,7 @@
 
             <li :class="currentPage.includes('q_n_a') ? 'active' : ''"><a id="link12" class="nav-section8" href="#q_n_a"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Q and A</a></li>
 
-            <li :class="currentPage.includes('end') ? 'active' : ''"><a id="link13" class="nav-section8" href="#end"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> End</a></li>
+            <li :class="currentPage.includes('ending') ? 'active' : ''"><a id="link13" class="nav-section8" href="#ending"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> End</a></li>
 
             <li :class="currentPage.includes('logout') ? 'active' : ''"><a id="link14" class="nav-section8" @click.prevent="logout" href="#logout"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Logout</a></li>
         </ul>
@@ -71,9 +71,19 @@
                 }
             }
         },
+        watch: {
+            '$route'() {
+                this.$root.$emit('closenav')
+            }
+        },
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.avatar {
+    width: 100px;
+    @media (max-width: 1199px) {
+        width: 90px;
+    }
+}
 </style>

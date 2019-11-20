@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-if="path === '/login' ">
+        <div class="login" v-if="path === '/login' ">
             <br><br><br><br><br><br>
             <div>
                 <router-view/>
@@ -22,7 +22,7 @@
 
                                     </ul>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-xs-12 xs-hidden">
+                                <div class="col-lg-6 col-md-6 col-xs-12">
                                     <ul class="top_information ">
                                         <li>Building your Web with Firebase</li>
                                     </ul>
@@ -32,17 +32,19 @@
                         </div>
                     </div>
                 </div>
-                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <button type="button" id="openNav" @click.prevent="openSide(false)" class="hamburger is-closed" data-toggle="offcanvas">
                     <span class="hamb-top"></span>
                     <span class="hamb-middle"></span>
                     <span class="hamb-bottom"></span>
                 </button>
                 <div class="body">
+                    <div class="sidenav-overlay" @click.prevent="openSide(true)" style="display: none; opacity: 0;"></div>
                     <router-view/>
                 </div>
             </div>
             <!-- /#page-content-wrapper -->
         </div>
+
     </div>
 </template>
 
@@ -61,18 +63,51 @@
             window.addEventListener('offline', () => {
                 alert('You are Offline')
             });
+            let vm = this;
+            this.$root.$on('closenav', function () {
+                vm.openSide(true);
+            })
         },
         data(){
             return {
-                path : '/login'
+                path : '/login',
+                isOpen: false
             }
         },
         updated() {
             var currentUrl = this.$router.currentRoute.path;
             // var currentUrl = window.location.pathname;
-            console.log(currentUrl)
+            // console.log(currentUrl)
             this.path =  currentUrl
         },
+        methods: {
+            openSide(state){
+                if(state){
+                    const el = document.getElementById('openNav');
+                    const el1 = document.getElementsByClassName('sidenav-overlay')[0];
+                    const body = document.getElementById('wrapper');
+                    if(el){
+                        el.setAttribute("class", "is-closed hamburger")
+                        el1.setAttribute("style", "display: none; opacity: 0;")
+                        body.classList.remove("toggled");
+                    }
+                    // console.log('hahaha');
+                    // console.log(body);
+                    // console.log(el);
+                    this.isOpen = false;
+                }else{
+                    const el = document.getElementsByClassName('hamburger')[0];
+                    const el1 = document.getElementsByClassName('sidenav-overlay')[0];
+                    const body = document.getElementById('wrapper');
+                    if(el){
+                        el.setAttribute("class", "is-open")
+                        el1.setAttribute("style", "display: block; opacity: 1; ")
+                        body.setAttribute("class", "toggled")
+                    }
+                    this.isOpen = true;
+                }
+            },
+        }
     }
 </script>
 
@@ -94,6 +129,12 @@
         padding: 10px!important;
         ul li {
             font-size: 20px;
+        }
+        @media (max-width: 1199px) {
+            padding: 0px;
+            text-align: left;
+            margin-right: 20px;
+            width: auto;
         }
     }
 </style>

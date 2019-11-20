@@ -3,17 +3,17 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <article v-if="currentPage.includes('welcome') || currentPage === '/' " class="wow fadeInDown" id="welcome">
             </article>
-            <article v-if="currentPage.includes('title') " class="wow fadeInDown" id="title">
+            <article :style="{'display': currentPage.includes('title') ? 'block' : 'none'}" class="wow fadeInDown" id="title">
                 <div class="row ">
                     <div class="col-md-12">
                         <div class="padd text-center vertical-center content-center">
-                            <h2 style="color: #7B7EF8; font-size: 80px">Build your Web with Firebase</h2>
+                            <h2 class="h2">Build your Web with Firebase</h2>
                             <br>
                         </div>
                     </div>
                 </div>
             </article>
-            <article v-if="currentPage.includes('intro') " class="wow fadeInDown" id="intro">
+            <article v-show="currentPage.includes('intro') " class="wow fadeInDown" id="intro">
                 <div class="row">
                     <div class="col-md-5">
 <!--                        this is empty-->
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </article>
-            <article v-if="currentPage.includes('agenda') " class="wow fadeInDown" id="agenda">
+            <article v-show="currentPage.includes('agenda') " class="wow fadeInDown" id="agenda">
                 <div class="row ">
                     <div class="col-md-6">
                         <div style="margin-left: 100px;" class="padd  vertical-center content-center">
@@ -70,13 +70,15 @@
                                         <h3 class="text-center" >Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale.</h3>
                                     </div>
                                     <div class="margin-50 margin_bottom_30"></div>
-                                    <div class="list col-md-10 col-md-offset-1 ">
-                                        <h3>Key Capabilities</h3>
-                                        <ul>
-                                            <li>Robust operations</li>
-                                            <li>Strong Security</li>
-                                            <li>High Scalability</li>
-                                        </ul>
+                                    <div class="col-md-12">
+                                        <div class="list col-md-10 col-md-offset-1 ">
+                                            <h3>Key Capabilities</h3>
+                                            <ul>
+                                                <li>Robust operations</li>
+                                                <li>Strong Security</li>
+                                                <li>High Scalability</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -126,14 +128,16 @@
                                             Firestore database functions with data models by storing your data in documents. Those documents are stored inside of collections</h3>
                                     </div>
                                     <div class="margin-50 margin_bottom_30"></div>
-                                    <div class="list col-md-10 col-md-offset-1 ">
-                                        <h3>Key Capabilities</h3>
-                                        <ul>
-                                            <li>Flexibility</li>
-                                            <li>Offline support</li>
-                                            <li>Realtime updates</li>
-                                            <li>Scale across multiple databases</li>
-                                        </ul>
+                                    <div class="col-md-12">
+                                        <div class="list col-md-10 col-md-offset-1 ">
+                                            <h3>Key Capabilities</h3>
+                                            <ul>
+                                                <li>Flexibility</li>
+                                                <li>Offline support</li>
+                                                <li>Realtime updates</li>
+                                                <li>Scale across multiple databases</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -246,21 +250,21 @@
             <article v-if="currentPage.includes('q_n_a') " class="wow fadeInDown" id="q_n_a">
                 <div class="row ">
                     <div class="col-md-12">
-                        <div style="margin-left: 300px;" class="text-center vertical-center content-center">
+                        <div class="text-center q vertical-center content-center">
                             <h2 style="font-size: 100px; color: #5dbe4b;">Q and A</h2>
                         </div>
                     </div>
                 </div>
             </article>
-            <article v-if="currentPage.includes('end') " class="wow fadeInDown" id="end">
+            <article v-if="currentPage.includes('ending') " class="wow fadeInDown" id="ending">
                 <div class="row ">
                     <div class="col-md-12">
-                        <div style="margin-left: 300px;" class="text-center vertical-center content-center">
-                            <h2 style="font-size: 80px;">Thank you</h2> <br>
+                        <div class="text-center q vertical-center content-center">
+                            <h2 class="h2">Thank you</h2> <br>
                         </div>
-                        <div class="text-info text-center" style="margin-top: -70px">
-                            <p style="font-size: 25px; color: #f24129">github.com/manuelgeek/devFestWestern</p>
-                            <p style="font-size: 25px; color: #f24129">github.com/droidconKE/droidcon19Web</p>
+                        <div class="text-info text-center links" >
+                            <p style="color: #f24129">github.com/manuelgeek/devFestWestern</p>
+                            <p style="color: #f24129">github.com/droidconKE/droidcon19Web</p>
                         </div>
                     </div>
                 </div>
@@ -290,18 +294,37 @@
 <style lang="scss" scoped>
     article {
         height: 100%;
+        .h2 {
+            color: #7B7EF8;
+            font-size: 80px;
+            @media (max-width: 1199px) {
+                font-size: 50px;
+            }
+        }
     }
     #welcome{
         background: url(./../../public/assets/images/fulll.jpg) no-repeat;
         background-size: contain;
+        @media (max-width: 1199px) {
+            background: url(./../../public/assets/images/fulll.jpg) no-repeat;
+            background-size: contain;
+        }
     }
     #intro{
         background: url(./../../public/assets/images/side.png) no-repeat;
         background-size: contain;
+        @media (max-width: 1199px) {
+            background: url(./../../public/assets/images/empty.png) no-repeat;
+            background-size: cover;
+        }
     }
     #agenda, #title, #firebase, #storage, #database, #firestore, #auth, #messaging, #demo, #hosting, #q_n_a, #end{
         background: url(./../../public/assets/images/empty.png) no-repeat;
         background-size: contain;
+        @media (max-width: 1199px) {
+            background: url(./../../public/assets/images/empty.png) no-repeat;
+            background-size: cover;
+        }
     }
     .vertical-center {
         min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
@@ -310,6 +333,10 @@
         display: flex;
         /*flex-direction: column;*/
         align-items: center;
+        @media (max-width: 1199px) {
+            min-height: 20%;  /* Fallback for browsers do NOT support vh unit */
+            min-height: 20vh; /* These two lines are counted as one :-)       */
+        }
     }
     .padd{
         padding: 100px;
@@ -320,6 +347,30 @@
         padding: 30px 30px 50px;
         border-left: 3px solid #7B7EF8;
         min-height: 100%;
+        @media (max-width: 1199px) {
+           margin-bottom: 20px;
+        }
+    }
+    .q {
+        margin-left: 300px;
+        @media (max-width: 1199px) {
+            margin-left: 90px;
+            margin-top: 180px;
+        }
+    }
+    .links{
+        margin-top: -70px;
+        @media (max-width: 1199px) {
+            margin-top: 50px;
+        }
+        text-align: center;
+        p{
+            font-size: 25px;
+            text-align: center;
+            @media (max-width: 1199px) {
+                font-size: 20px;
+            }
+        }
     }
     h2{
         line-height: normal;
@@ -340,5 +391,8 @@
         }
         padding: 30px 20px;
         margin-top: 20px;
+        @media (max-width: 1199px) {
+            margin-bottom: 20px;
+        }
     }
 </style>
