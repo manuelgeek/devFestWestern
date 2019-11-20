@@ -4,7 +4,7 @@
   "theme_color": "#7b7ef8",
   "background_color": "#7b7ef8",
   "display": "browser",
-  "orientation": "landscape",
+  "orientation": "standalone",
   "Scope": "/",
   "start_url": "index.html",
   "icons": [
