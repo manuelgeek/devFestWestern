@@ -9,9 +9,9 @@
         <ul class="nav sidebar-nav">
             <li :class="currentPage.includes('welcome') ? 'active' : ''"><a id="link1" class="nav-section1" href="#welcome"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Welcome</a></li>
 
-            <li :class="currentPage.includes('title') ? 'active' : ''"><a id="link31" class="nav-section1" href="#title"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Title</a></li>
+            <li :class="currentPage.includes('intro') ? 'active' : ''"><a id="link2" class="nav-section2" href="#intro"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Introduction</a></li>
 
-            <li :class="currentPage.includes('intro') ? 'active' : ''"><a id="link2" class="nav-section2" href="#intro"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Intro</a></li>
+            <li :class="currentPage.includes('title') ? 'active' : ''"><a id="link31" class="nav-section1" href="#title"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Title</a></li>
 
             <li :class="currentPage.includes('agenda') ? 'active' : ''"><a id="link3" class="nav-section3" href="#agenda"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Agenda</a></li>
 
@@ -22,6 +22,8 @@
             <li :class="currentPage.includes('database') ? 'active' : ''"><a id="link6" class="nav-section6" href="#database"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Realtime Database </a></li>
 
             <li :class="currentPage.includes('firestore') ? 'active' : ''"><a id="link7" class="nav-section7" href="#firestore"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Cloud Firestore</a></li>
+
+            <li :class="currentPage.includes('firedemo') ? 'active' : ''"><a id="link79" class="nav-section7" href="#firedemo"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Cloud Firestore Demo</a></li>
 
             <li :class="currentPage.includes('auth') ? 'active' : ''"><a id="link8" class="nav-section8" href="#auth"><i class="fa fa-circle-o" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i> Authentication</a></li>
 

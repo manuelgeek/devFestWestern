@@ -76,7 +76,7 @@
 }
 .sidebar-nav li.active::before {
     color: #fff;
-    background-color: #632e62;
+    background-color: #465DBC;
 }
 .sidebar-nav li a {
     display: block;
@@ -241,7 +241,7 @@ article {
     color: #ddd;
 }
 .sidebar-nav li.active a i {
-    color: #632e62;
+    color: #465DBC;
 }
 .fa.fa-circle-o + .fa.fa-circle {
     display: none;
@@ -297,7 +297,7 @@ article {
     transition: ease all 0.5s;
 }
 .visit_web {
-    background: #632e62;
+    background: #465DBC;
     color: #fff;
     padding: 0 25px;
     float: left;
@@ -318,7 +318,7 @@ article {
     float: left;
     width: 100%;
     min-height: auto;
-    background: #632e62;
+    background: #465DBC;
     margin-bottom: 50px;
     position: relative;
     z-index: 1;

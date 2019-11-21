@@ -4,7 +4,7 @@
             <div class="col-md-6 col-md-offset-3 panel-primary">
                 <div class="content-box-large">
                     <div class="panel-heading">
-                        <div class="panel-title"><h3>Send Push Notifications</h3></div>
+                        <div class="panel-title text-center"><h3 style="color: #465DBC; ">Send Push Notifications</h3></div>
                     </div>
                     <div class="panel-body">
                         <form class="form-horizontal" role="form" @submit.prevent="sendNotification()">
@@ -72,7 +72,7 @@
                     "notification": {
                         "title": this.$data.form.title,
                         "body": this.$data.form.message,
-                        "icon": "https://droidcon.co.ke/assets/img/about-logo.png",
+                        "icon": "https://devfest-11a68.firebaseapp.com/assets/images/logo.png",
                         "click_action": this.$data.form.url
                     },
                     "data": {

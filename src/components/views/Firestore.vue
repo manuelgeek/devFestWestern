@@ -2,7 +2,7 @@
     <div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin_bottom_30_all">
             <div class="center">
-                <img :src="detail.avatar" width="200" class="img-circle" alt="me" />
+                <img onerror="this.onerror=null;this.src='/assets/images/logo.png';" :src="detail.avatar" width="200" class="img-circle" alt="me" />
             </div>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -37,7 +37,7 @@
 <script>
     import db from "@/services/Database";
     export default {
-        name: "Intro",
+        name: "Firestore",
         data(){
             return {
                 detail: [],

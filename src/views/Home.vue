@@ -13,16 +13,7 @@
                     </div>
                 </div>
             </article>
-            <article v-show="currentPage.includes('intro') " class="wow fadeInDown" id="intro">
-                <div class="row">
-                    <div class="col-md-5">
-<!--                        this is empty-->
-                    </div>
-                    <div class="col-md-7">
-<!--                        Firestore Demo-->
-                        <intro/>
-                    </div>
-                </div>
+            <article v-if="currentPage.includes('intro') || currentPage === '/' " class="wow fadeInDown" id="intro">
             </article>
             <article v-show="currentPage.includes('agenda') " class="wow fadeInDown" id="agenda">
                 <div class="row ">
@@ -111,6 +102,17 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </article>
+            <article v-show="currentPage.includes('firedemo') " class="wow fadeInDown" id="firedemo">
+                <div class="row">
+                    <div class="col-md-5">
+                        <!--                        this is empty-->
+                    </div>
+                    <div class="col-md-7">
+                        <!--                        Firestore Demo-->
+                        <firestore/>
                     </div>
                 </div>
             </article>
@@ -277,11 +279,11 @@
 <script>
     // @ is an alias to /src
     import Notification from "@/components/views/Notification";
-    import Intro from "@/components/views/Intro";
+    import Firestore from "@/components/views/Firestore";
     export default {
         name: 'home',
         components: {
-            Notification, Intro,
+            Notification, Firestore,
         },
         computed:{
             currentPage(){
@@ -294,8 +296,11 @@
 <style lang="scss" scoped>
     article {
         height: 100%;
+        h2 {
+            color: #465DBC;
+        }
         .h2 {
-            color: #7B7EF8;
+            color: #465DBC;
             font-size: 80px;
             @media (max-width: 1199px) {
                 font-size: 50px;
@@ -311,6 +316,14 @@
         }
     }
     #intro{
+        background: url(./../../public/assets/images/manu.jpeg) no-repeat;
+        background-size: contain;
+        @media (max-width: 1199px) {
+            background: url(./../../public/assets/images/manu.jpeg) no-repeat;
+            background-size: cover;
+        }
+    }
+    #firedemo{
         background: url(./../../public/assets/images/side.png) no-repeat;
         background-size: contain;
         @media (max-width: 1199px) {
@@ -345,7 +358,7 @@
         display: flex;
         flex-direction: column;
         padding: 30px 30px 50px;
-        border-left: 3px solid #7B7EF8;
+        border-left: 3px solid #465DBC;
         min-height: 100%;
         @media (max-width: 1199px) {
            margin-bottom: 20px;
@@ -388,6 +401,9 @@
                 margin-bottom: 20px!important;
                 font-size: 20px;
             }
+        }
+        h3{
+            color: #465DBC;
         }
         padding: 30px 20px;
         margin-top: 20px;

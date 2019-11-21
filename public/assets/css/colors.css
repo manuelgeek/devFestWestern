@@ -50,7 +50,7 @@ a.btn.dark_gray_bt:focus,
 .icon_feature,
 a.btn.main_bt,
 button.btn.main_bt {
-	background: #7b7ef8;
+	background: #465DBC;
 }
 .bg_load{
 	background: #fff;
@@ -84,7 +84,7 @@ a.btn.light_btn:hover,
 a.btn.light_btn:focus button.btn.light_btn:hover,
 a.btn.light_btn:focus {
 	background: #fff;
-	color: #7b7ef8;
+	color: #465DBC;
 	border-color: #fff;
 }
 
@@ -106,7 +106,7 @@ hr.dottad_border,
 .pagination>.active>span:hover,
 .comment_section,
 .boder_dottat_small {
-	border-color: #7b7ef8;
+	border-color: #465DBC;
 }
 
 .theme_color,
@@ -134,7 +134,7 @@ a.btn:hover,
 button.btn:hover,
 a.btn:focus,
 button.btn:focus {
-	color: #7b7ef8;
+	color: #465DBC;
 }
 
 .price_table_active a.btn:hover,
@@ -145,7 +145,7 @@ button.btn:focus {
 
 .border_dotted_circle:hover,
 .border_dotted_circle:focus {
-	border-color: #7b7ef8;
+	border-color: #465DBC;
 }
 
 .btn.light_theme_bt {
@@ -183,8 +183,8 @@ body.light_blue button.btn.white_btn:hover,
 body.light_blue a.btn.white_btn:hover,
 body.light_blue button.btn.white_btn:focus,
 body.light_blue a.btn.white_btn:focus {
-	background: #7b7ef8;
-	border-color: #7b7ef8;
+	background: #465DBC;
+	border-color: #465DBC;
 	color: #fff;
 }
 
