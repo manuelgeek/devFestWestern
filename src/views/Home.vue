@@ -320,7 +320,7 @@
         background-size: contain;
         @media (max-width: 1199px) {
             background: url(./../../public/assets/images/manu.jpeg) no-repeat;
-            background-size: cover;
+            background-size: contain;
         }
     }
     #firedemo{
