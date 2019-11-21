@@ -1,8 +1,8 @@
 {
   "name": "DevFestWestern",
   "short_name": "DevFestWestern",
-  "theme_color": "#7b7ef8",
-  "background_color": "#7b7ef8",
+  "theme_color": "#465DBC",
+  "background_color": "#465DBC",
   "display": "standalone",
   "orientation": "portrait",
   "start_url": "index.html",
