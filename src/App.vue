@@ -114,7 +114,7 @@
 <style lang="scss">
 .hamburger{
     span {
-        background-color: red!important;
+        background-color: #465DBC!important;
     }
 }
 .navb {
